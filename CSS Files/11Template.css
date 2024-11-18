@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: "Playwrite MX", cursive;
+    font-weight: 20;
+    color: white;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: #252B42;
+  }
+
+  .parent{
+    padding-left: 20px;
+    height:100px;
+    width:200px;
+    background-color: #252B42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+  .child1{
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: 40px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .child2{
+    margin-top: 0px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .child3{
+    margin-top: 0px;
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: space-evenly;
+
+  }
+
+  .child4{
+    margin-top: 0px;
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .child5{
+    margin-top: 0px;
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .child6{
+    margin-top: 0px;
+    margin-left: 300px;
+    /* height: 100px;
+    width: 100px; */
+    text-align: center;
+    align-content: space-evenly;
+  }
+
+  .child7{
+    margin: 20px;
+    height: 40px;
+    width: 200px;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: #23A6F0;
+    
+}

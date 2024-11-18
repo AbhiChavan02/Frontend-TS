@@ -1,0 +1,45 @@
+*{
+    background-color:antiquewhite;
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+}
+
+.hi{
+    color: green;
+    background-color: orange;
+    height: 50%;
+    width: 20%;
+    
+}
+#h1{
+    color: black;
+    background-color: white;
+    height: 50%;
+    width: 20%;
+}
+
+.h2{
+    color: orange;
+    background-color: green;
+    height: 50%;
+    width: 20%;
+}
+
+
+.hello{
+    color: black;
+    height: 600px;
+    width: 600px;
+}
+
+.Bike{
+    height: 300px;
+    width: 300px;
+}
+
+
+/* .hi {
+    
+  } */

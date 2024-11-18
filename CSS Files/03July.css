@@ -1,0 +1,46 @@
+*{
+    margin: 20px;
+    padding: 0;
+    font-family: "Playwrite MX", cursive;
+    font-weight: 20;
+}
+
+.bike{
+    height: 300px;
+    display: flex;
+    margin: 10px;
+}
+
+
+.parent{
+    
+    height:400px;
+    width:400px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: orange;
+    
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: white;
+}
+.child3{
+    height: 100px;
+    width: 100px;
+    align-content: space-evenly;
+    text-align: center;
+    background-color: lightgreen;
+}

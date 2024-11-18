@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+</head>
+<body>
+    <button onclick="fetchStudent()">Click me</button>
+    <h1 id="studentName"> </h1>
+
+    <script>
+
+        async function fetchStudent() {
+            let rawData = await fetch("http://localhost:8080/get-student");
+            let finalData = await rawData.json();
+            console.log(finalData);
+            if(finalData.length > 0){
+                document.getElementById("studentName").innerText = finalData[0].name;
+            }
+        }
+
+        
+        
+    </script>
+</body>
+</html>

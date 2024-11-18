@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at 50% 50%, #161006, #6a0418, #19091d);
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.sign-in {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-content {
+    margin-top: 120px;
+    padding: 0 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.search-bar {
+    display: inline-flex;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.search-bar input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 15px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.rating-box, .seo-tools, .precision-tools {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.rating-box {
+    background: linear-gradient(135deg, rgba(255, 115, 95, 0.9), rgba(255, 90, 40, 0.9));
+}
+
+.rating {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.get-started {
+    background-color: #ff835c;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+.footer {
+    margin-top: 80px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
